@@ -1,0 +1,61 @@
+{
+  "name": "merchant-manager",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.0.0-rc.1",
+    "@material-ui/icons": "^2.0.3",
+    "classnames": "^2.2.5",
+    "connected-react-router": "^4.3.0",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "json-server": "^0.14.0",
+    "lodash.flow": "^3.5.0",
+    "lodash.get": "^4.4.2",
+    "moment": "^2.22.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-modal": "^3.4.4",
+    "react-progress-2": "^4.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1",
+    "rxjs": "6.1.0",
+    "rxjs-compat": "6.1.0",
+    "styled-components": "^3.2.6",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "precommit": "lint-staged",
+    "json-server": "json-server --watch db.json --port 3001"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "glob": "^7.1.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.5",
+    "react-test-renderer": "^16.4.1",
+    "rimraf": "^2.6.2",
+    "serve": "^9.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "homepage": "."
+}

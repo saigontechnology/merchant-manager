@@ -1,0 +1,20 @@
+/**
+ *  Use styled-component instead of too many global styles.
+ */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+}
+#root {
+  display: flex;
+  flex: 1;
+}
