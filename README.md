@@ -48,7 +48,7 @@ The main idea of this is to make things high cohesive.
   * `/redux`: All common setup for Redux (reducers, store, middlewares)
   * `/helpers`: Helpers/Utility functions that would be used among modules
     * `FetchHelper.js`: A wrapper for Fetch API, see `src/helpers/fetchHelper.js` for more information.
-  * /components: contains React components, which are reused among modules. Building /components is like building Bootstrap or Material UI components, they are the view foundation of the application. Everything in here should have documentation and be well tested..
+  * `/components`: contains React components, which are reused among modules. Building /components is like building Bootstrap or Material UI components, they are the view foundation of the application. Everything in here should have documentation and be well tested..
   * `/modules`: contains modules, each module represents a feature, everything (component, action, reducer, saga, ...) that closely relates to each other, should be kept in a module. And when a module becomes fat, it should be separated into smaller ones
     * `/module1`: A module may relate to a feature. It contains many components, pages, actions, reducers, services, ... which are highly relate to each other.
       * `index.js`: All module items which are needed to be used from outside need to be export from here. From the outside, avoid to import module item directly.
